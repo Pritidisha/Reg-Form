@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>FORM</h1>
+    <form>
+      <label for="em"> Email address:</label>
+      <input type="email" id="em" /><br />
+      <p>
+        Are you 20+ years? 
+        <label for="y">
+          Yes
+          <input type="radio" id="y" />
+        </label>
+        <label for="n">
+          No
+          <input type="radio" id="n" />
+        </label>
+      </p>
+
+      <label for="s1"> Campus:</label>
+      <select id="s1">
+        <option>Chennai</option>
+        <option>Vellore</option>
+      </select>
+      <p>
+        Select your field of interest:
+        <input type="checkbox" id="c1" />
+        <label for="c1"> Art</label>
+        <input type="checkbox" id="c2" />
+        <label for="c2">Music</label>
+        <input type="checkbox" id="c3" />
+        <label for="c3">Dance</label>
+      </p>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
